@@ -1,0 +1,63 @@
+/* 1. Universal Selector */
+* {
+    box-sizing: border-box;
+}
+
+/* 2. Element Selector */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* 3. Grouping Selector */
+h1, h2, p {
+    margin-top: 0;
+}
+
+/* Header Styling */
+header {
+    background-color: #173b67;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* 4. Class Selector */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.card h2 {
+    color: #24558a;
+}
+
+/* 5. ID Selector */
+#intro {
+    background-color: #dce8f5;
+    padding: 20px;
+    margin: 20px;
+    border-left: 5px solid #173b67;
+}
+
+/* 6. Cascade and Specificity */
+p {
+    color: green;
+}
+
+.highlight {
+    color: red;
+}
+
+footer {
+    background-color: #173b67;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
